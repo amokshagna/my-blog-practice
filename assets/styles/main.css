@@ -1,1 +1,49 @@
-h1 { color: red; }
+
+/* Dark theme */
+body.dark-mode {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+/* Subscribe button styles */
+.btn-subscribe {
+  background: #007bff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+.btn-subscribe:hover {
+  opacity: 0.9;
+}
+.header {margin-bottom: 1 rem; }
+
+/*New changes*/
+/* Footer base styles */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.footer-widgets {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-widget {
+  flex: 1;
+}
+
+.footer-widget h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #f1c40f;
+}
+
+.footer-widget p,
+.footer-widget a {
+  font-size: 0.9rem;
+  color: #ccc;
+  text-decoration: none;
+}
+.header { margin-bottom: 1rem; }
